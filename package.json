@@ -35,8 +35,8 @@
   "main": "js/main.js",
   "dependencies": {
     "connect": "^3.4.0",
-    "gulp": "^3.9.0",
     "connect-livereload": "^0.5.3",
+    "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-csso": "^1.0.0",
     "gulp-imagemin": "^2.3.0",
@@ -50,7 +50,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Apacherus",
   "license": "ISC",
-  "description": ""
+  "description": "Use `gulp` or `gulp prod` to build project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apacherus/js-default.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Apacherus/js-default/issues"
+  },
+  "homepage": "https://github.com/Apacherus/js-default#readme"
 }
